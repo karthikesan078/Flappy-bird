@@ -14,6 +14,7 @@ public class App {
         FlappyBird flappybird = new FlappyBird();
         frame.add(flappybird);
         frame.pack();//if we dont give pack(),then the total size of the game would be the size of the titlebar
+        flappybird.requestFocus();                      
         frame.setVisible(true);//making it visible only after creating the frame
 
     }
