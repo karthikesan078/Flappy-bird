@@ -132,7 +132,7 @@ public class FlappyBird extends JPanel implements ActionListener,KeyListener{
             g.setColor(Color.black);
             g.setFont(new Font("Showcard Gothic", Font.PLAIN,32));
             if (gameOver){
-                g.drawString("Seththadaa : " +String.valueOf((int) score), 10, 35);// displaying score 
+                g.drawString("Game Over : " +String.valueOf((int) score), 10, 35);// displaying score 
             }
              else {
                 g.drawString(String.valueOf((int) score ), 10, 35);
@@ -214,3 +214,4 @@ public class FlappyBird extends JPanel implements ActionListener,KeyListener{
            
         }
 }
+
